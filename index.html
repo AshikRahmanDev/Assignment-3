@@ -183,12 +183,52 @@
             <!-- courses part End -->
         </section>
         <!-- courses part end -->
-        <section class="container">
-
+        
+        <!-- registration part -->
+        <section class="container bg-blue rounded bg-registartion d-flex justify-content-center align-items-center text-center text-lg-start my-5">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 w-75 ">
+                <div class="col d-lg-flex align-items-lg-center  text-white">
+                    <div><h1>Ready to join?</h1>
+                        <p>If you want to join any course then Register our website. Join and build your skill.</p></div>
+                </div>
+                <div class="col d-lg-flex align-items-center justify-content-end">
+                    <button class="btn text-blue bg-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                            <h5 class="modal-title text-white" id="exampleModalLabel">Registration</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <form action="">
+                                <label for="email" class="text-blue fw-bold">Enter your Email</label>
+                                <input type="email" class="form-control" name="email" id="">
+                                <br>
+                                <label for="password" class="text-blue fw-bold">Create a password</label>
+                                <input type="password" class="form-control" name="password" id="">
+                            </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn bg-blue text-white">Register</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- registration end -->
     </main>
 
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<!-- <div class="ps-5 text-white">
+    <h1>Ready to join?</h1>
+    <p>If you want to join any course then Register our website. Join and build your skill.</p>
+</div>
+<div class="pe-5"><button class="btn text-blue bg-light">Register Now</button></div> -->
