@@ -3,6 +3,9 @@
     background-size: cover; 
     height: 35rem;
 }
-.btn-color{
+.bg-blue{
     background-color:#289BDE;
+}
+.text-blue{
+    color:#289BDE;
 }
