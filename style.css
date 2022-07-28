@@ -1,3 +1,4 @@
+/* common style */
 .slider-bg{
     background-position: center; 
     background-size: cover; 
@@ -15,6 +16,10 @@
 .bg-light-blue{
     background-color: #F4FAFD;
 }
+.text-gold{
+    color: gold;
+}
+/* footer style */
 footer{
     margin-top: 7rem;
     height: 20rem;
